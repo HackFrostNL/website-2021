@@ -1,0 +1,46 @@
+/* Home Section */
+
+.home{
+    background-color: cornflowerblue;
+    background-image: url();
+    height: 100%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.home .content{
+    color: white;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#event-date{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#event-year{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#register, #sponsor-us{
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 30px;
+}

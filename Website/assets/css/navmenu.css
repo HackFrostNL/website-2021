@@ -1,0 +1,39 @@
+/* Navigation Bar */
+
+header{
+    background: #425764;
+    display: flex;
+    margin: auto;
+    height: 15vh;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo-container, .nav-menu, .nav-button{
+    display: flex;
+}
+
+.logo-container{
+    flex: 1;
+    justify-content: flex-start;
+}
+
+nav{
+    flex: 2;
+}
+
+.nav-menu{
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-button{
+    flex: 1;
+    justify-content: flex-end;
+}
