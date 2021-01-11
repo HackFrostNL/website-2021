@@ -1,0 +1,52 @@
+/* Navigation Bar */
+/* This section needs fixing!!! */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background: #425764;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 30px 5%;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-logo, .nav-link{
+    cursor: pointer;
+    display: flex;
+}
+
+.nav-logo{
+    float: left;
+}
+
+.nav-menu{
+    float: right;
+    list-style: none;
+}
+
+.nav-menu li{
+    display: inline-block;
+}
+
+.nav-menu li a{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 30px;
+    transition: all 1s ease 0s;
+}
+
+.nav-menu li a:hover{
+    color: tomato;
+}

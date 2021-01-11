@@ -1,0 +1,27 @@
+/* About Us Section */
+
+.about{
+    background-color: slategray;
+    background-image: url();
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-left: ;
+    padding-right: ; */
+}
+
+.about .content{
+    color: white;
+}
+
+/* .about h1{
+    font-size: 50;
+    font-weight: bold;
+    color: blue;
+
+} */
+
+.about p{
+    font-size: 20;
+    line-height: 30px;
+}
