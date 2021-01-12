@@ -6,8 +6,8 @@
 @import url("sponsors.css");
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -69,14 +69,14 @@ p{
     padding: 15px 32px;
     border: none;
     outline: none;
-    border-radius: 4px;
+    border-radius: 14px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     background-color: #ffd424;
     box-shadow: 0 7px #b49610;
     color: black;
-    transition: all 1s ease 0s;
+    transition: all .4s ease 0s;
 }
 
 .button:hover{
