@@ -20,26 +20,31 @@
 
     <body>
         <main>
-            <!-- Navbar needs to be fixed!!! -->
-
             <nav>
+                <input id="nav-toggle" type="checkbox">
                 <!-- Nav Logo -->
-                <a id="logo" class="nav-logo" href="#home">
-                    <img src="/assets/img/down.svg" style="width:40px; height:40px;"/>
+                <a class="logo" href="#home">
+                    <img src="assets/img/just-nl-white-small.png" style="height: 40px;"/>
                 </a>
-                <!-- Nav Menu -->
-                <ul class="nav-menu">
+                <!-- Navbar -->
+                <ul class="links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#faq">FAQ</a></li>
                     <li><a href="#schedule">Schedule</a></li>
                     <li><a href="#sponsors">Sponsors</a></li>
-                </ul>      
+                </ul>
+                <!-- Burger Menu -->
+                <label for="nav-toggle" class="burger-icon">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </label>
             </nav>
             
             <!-- Home -->
             <section class="home" id="home">
                 <div class="wrapper valign d-flex flex-column">
-                    <img src="images/finalLogo.png" id="logo" alt="hackfrostNL">
+                    <img src="assets/img/hfnl-logo-big.png" id="logo" alt="hackfrostNL">
                     <h1 id="event-date">February 19<sup>th</sup> - 21<sup>st</sup></h1>
                     <h3 id="event-year">2021</h3>
                     <!-- Add a tag that says "Online Virtual Event". Location tag maybe? -->    
@@ -175,7 +180,6 @@
         <p>Lorem Ipsum Dolor Sit Amet</p>
         <!-- Scripts -->
         <script src="assets/js/scripts.js"></script>
-        <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
     </body>
 
 </html>
