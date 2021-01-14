@@ -3,13 +3,13 @@
 .sponsors{
     background-color: turquoise;
     background-image: url();
-    background-image: url("images/overlay.png"), -moz-linear-gradient(125deg, #C9BAC2 10%, #4C1E4F 35%);
+    /* background-image: url("images/overlay.png"), -moz-linear-gradient(125deg, #C9BAC2 10%, #4C1E4F 35%);
     background-image: url("images/overlay.png"), -webkit-linear-gradient(125deg, #C9BAC2 10%, #4C1E4F 35%);
-    background-image: url("images/overlay.png"), -ms-linear-gradient(125deg, #C9BAC2 10%, #4C1E4F 35%);
-    background-image: url("images/overlay.png"), linear-gradient(125deg, #C9BAC2 10%, #4C1E4F 35%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(125deg, #C9BAC2 10%, #4C1E4F 35%); */
+    background-image: url("images/overlay.png"), linear-gradient(180deg, #4C1E4F 20%, #C9BAC2 70%);
     margin: auto;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
 }
 
 .sponsors .content{
@@ -23,7 +23,16 @@
     color: white;
 }
 
+.sponsors h2{
+    padding: 1.5rem 3rem 1.5rem 3rem;
+}
+
 .sponsors p{
     font-size: 20;
     line-height: 30px;
+}
+
+.sponsors img.bronze-sponsor{
+    max-width: 100%;
+    padding: 1.5rem 3rem 1.5rem 3rem;
 }
