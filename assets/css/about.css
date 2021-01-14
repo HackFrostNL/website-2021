@@ -8,7 +8,7 @@
     /* background-image: url("images/overlay.png"), -moz-linear-gradient(125deg, #2274A5 20%, #4C1E4F 80%);
     background-image: url("images/overlay.png"), -webkit-linear-gradient(125deg, #2274A5 20%, #4C1E4F 80%);
     background-image: url("images/overlay.png"), -ms-linear-gradient(125deg, #2274A5 20%, #4C1E4F 80%); */
-    background-image: url("images/overlay.png"), linear-gradient(180deg, #2274A5 20%, #85B79D 70%);
+    background-image: url(images/overlay.png), linear-gradient(180deg, #758EB7 0%, #758EB7 100%);
     
     margin: auto;
     padding-top: 100px;

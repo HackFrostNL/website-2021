@@ -2,11 +2,10 @@
 
 .sponsors{
     background-color: turquoise;
-    background-image: url();
     /* background-image: url("images/overlay.png"), -moz-linear-gradient(125deg, #C9BAC2 10%, #4C1E4F 35%);
     background-image: url("images/overlay.png"), -webkit-linear-gradient(125deg, #C9BAC2 10%, #4C1E4F 35%);
     background-image: url("images/overlay.png"), -ms-linear-gradient(125deg, #C9BAC2 10%, #4C1E4F 35%); */
-    background-image: url("images/overlay.png"), linear-gradient(180deg, #4C1E4F 20%, #C9BAC2 70%);
+    background-image: url("images/overlay.png"), linear-gradient(180deg, #FF7B89 0%, #8A5082 50%);
     margin: auto;
     padding-top: 100px;
     padding-bottom: 40px;
@@ -25,6 +24,10 @@
 
 .sponsors h2{
     padding: 1.5rem 3rem 1.5rem 3rem;
+    font-size: 30;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
 }
 
 .sponsors p{
@@ -33,6 +36,11 @@
 }
 
 .sponsors img.bronze-sponsor{
+    height: auto;
     max-width: 100%;
     padding: 1.5rem 3rem 1.5rem 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }

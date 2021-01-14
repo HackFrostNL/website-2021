@@ -1,0 +1,84 @@
+/* Footer Section */
+
+.footer{
+    /* background-image: url("images/overlay.png"), -moz-linear-gradient(125deg, #2274A5 20%, #4C1E4F 80%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(125deg, #2274A5 20%, #4C1E4F 80%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(125deg, #2274A5 20%, #4C1E4F 80%); */
+    background-image: url("images/overlay.png"), linear-gradient(180deg, #8A5082 0%, #758EB7 50%);
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.footer .content{
+    color: white;
+}
+
+.footer h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.footer p{
+    font-size: 20;
+    line-height: 30px;
+    margin-top: 1.5rem;
+}
+
+.social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.footer .social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.footer .social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.footer .social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.footer .social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.footer .social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.footer .social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.footer .social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.footer .social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.footer .social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}

@@ -21,6 +21,10 @@ nav .logo{
     height: 100%;
 }
 
+nav .logo img{
+    transition: all 5s ease;
+}
+
 nav .links{
     float: right;
     display: flex;
@@ -44,7 +48,7 @@ nav .links a{
     font-weight: 600;
     text-decoration: none;
     padding: 0px 20px;
-    transition: all 1s ease 0s;
+    transition: all 5s ease;
 }
 
 nav .links li a:hover{
