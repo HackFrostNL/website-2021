@@ -41,13 +41,15 @@ nav .links a{
     display: inline-block;
     color: white;
     font-size: 18px;
+    font-weight: 600;
     text-decoration: none;
     padding: 0px 20px;
     transition: all 1s ease 0s;
 }
 
 nav .links li a:hover{
-    color: tomato;
+    color: #EE2C49;
+    transition: all 0.5s;
 }
 
 #nav-toggle{
