@@ -48,12 +48,12 @@ nav .links a{
     font-weight: 600;
     text-decoration: none;
     padding: 0px 20px;
-    transition: all 5s ease;
+    transition: all 0.4s ease;
 }
 
 nav .links li a:hover{
     color: #EE2C49;
-    transition: all 0.5s;
+    
 }
 
 #nav-toggle{

@@ -1,11 +1,9 @@
 /* Schedule Section */
 
 .schedule{
-    background-color: burlywood;
-    background-image: url();
-    /* background-image: url("images/overlay.png"), -moz-linear-gradient(125deg, #CF5C36 20%, #4C1E4F 45%);
-    background-image: url("images/overlay.png"), -webkit-linear-gradient(125deg, #CF5C36 20%, #4C1E4F 45%);
-    background-image: url("images/overlay.png"), -ms-linear-gradient(125deg, #CF5C36 20%, #4C1E4F 45%); */
+    background-image: url("images/overlay.png"), -moz-linear-gradient(180deg, #457b9d 0%, #a8dadc 100%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(180deg, #457b9d 0%, #a8dadc 100%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(180deg, #457b9d 0%, #a8dadc 100%);
     background-image: url("images/overlay.png"), linear-gradient(180deg, #457b9d 0%, #a8dadc 100%);
     margin: auto;
     padding-top: 100px;
@@ -21,6 +19,7 @@
     font-size: 40px;
     text-align: center;
     color: white;
+    margin-bottom: 40px;
 }
 
 .schedule p{

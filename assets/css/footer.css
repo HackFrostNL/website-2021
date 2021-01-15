@@ -1,9 +1,9 @@
 /* Footer Section */
 
 .footer{
-    /* background-image: url("images/overlay.png"), -moz-linear-gradient(125deg, #2274A5 20%, #4C1E4F 80%);
-    background-image: url("images/overlay.png"), -webkit-linear-gradient(125deg, #2274A5 20%, #4C1E4F 80%);
-    background-image: url("images/overlay.png"), -ms-linear-gradient(125deg, #2274A5 20%, #4C1E4F 80%); */
+    background-image: url("images/overlay.png"), -moz-linear-gradient(180deg, #f1faee 10%, #e63946 100%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(180deg, #f1faee 10%, #e63946 100%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(180deg, #f1faee 10%, #e63946 100%);
     background-image: url("images/overlay.png"), linear-gradient(180deg, #f1faee 10%, #e63946 100%);
     align-items: center;
     text-align: center;
@@ -21,6 +21,7 @@
     font-size: 40px;
     text-align: center;
     color: white;
+    margin-bottom: 40px;
 }
 
 .footer p{

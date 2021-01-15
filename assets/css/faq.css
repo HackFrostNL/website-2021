@@ -1,9 +1,9 @@
 /* FAQ Section */
 
 .faq{
-    /* background-image: url("images/overlay.png"), -moz-linear-gradient(125deg, #85B79D 20%, #4C1E4F 60%);
-    background-image: url("images/overlay.png"), -webkit-linear-gradient(125deg, #85B79D 20%, #4C1E4F 60%);
-    background-image: url("images/overlay.png"), -ms-linear-gradient(125deg, #85B79D 20%, #4C1E4F 60%); */
+    background-image: url("images/overlay.png"), -moz-linear-gradient(180deg, #1d3557 0%, #457b9d 80%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(180deg, #1d3557 0%, #457b9d 80%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(180deg, #1d3557 0%, #457b9d 80%);
     background-image: url(images/overlay.png), linear-gradient(180deg, #1d3557 0%, #457b9d 80%);
     margin: auto;
     padding-top: 100px;
@@ -19,6 +19,7 @@
     font-size: 40px;
     text-align: center;
     color: white;
+    margin-bottom: 40px;
 }
 
 .faq p{
@@ -94,4 +95,4 @@
     padding: 1.25rem;
     max-height: 100%;
     transition: opacity .4s cubic-bezier(.68,.8,.25,1) .2s, max-height .4s cubic-bezier(.22,.61,.36,1), padding-bottom .4s cubic-bezier(.22,.61,.36,1)
-  }
+}

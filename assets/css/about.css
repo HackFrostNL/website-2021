@@ -1,15 +1,10 @@
 /* About Us Section */
 
 .about{
-    /* Fix the gradient for the sections.
-    ** If possible, connect the gradients
-    ** between sections to make it seamless.
-    ** Remember ROYGBV */
-    /* background-image: url("images/overlay.png"), -moz-linear-gradient(125deg, #2274A5 20%, #4C1E4F 80%);
-    background-image: url("images/overlay.png"), -webkit-linear-gradient(125deg, #2274A5 20%, #4C1E4F 80%);
-    background-image: url("images/overlay.png"), -ms-linear-gradient(125deg, #2274A5 20%, #4C1E4F 80%); */
+    background-image: url("images/overlay.png"), -moz-linear-gradient(180deg, #1d3557 50%, #1d3557 100%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(180deg, #1d3557 50%, #1d3557 100%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(180deg, #1d3557 50%, #1d3557 100%);
     background-image: url(images/overlay.png), linear-gradient(180deg, #1d3557 50%, #1d3557 100%);
-    
     margin: auto;
     padding-top: 100px;
     padding-bottom: 40px;
@@ -24,6 +19,7 @@
     font-size: 40px;
     text-align: center;
     color: white;
+    margin-bottom: 40px;
 }
 
 .about p{
