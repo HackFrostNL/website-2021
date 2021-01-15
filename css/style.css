@@ -1,0 +1,119 @@
+@import url("navbar.css");
+@import url("home.css");
+@import url("about.css");
+@import url("faq.css");
+@import url("schedule.css");
+@import url("sponsors.css");
+@import url("footer.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body, html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.valign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+.content{
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*--------------------------------------
+    Typography
+--------------------------------------*/
+
+p{
+    margin-bottom: 2rem;
+}
+
+.section-header{
+	color: white;
+	font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+/*--------------------------------------
+    Buttons
+--------------------------------------*/
+
+.buttonBox {
+    margin: 0 auto;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 15px 32px;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #dfdfdf;
+    box-shadow: 0 7px #919191;
+    color: black;
+    transition: all .3s ease 0s;
+}
+
+.button:hover{
+    font-weight: bold;
+    color: #2C6D87;
+    background-color:#FFD522;
+    box-shadow: 0 7px #b49610;
+}
+
+.button:active{
+    box-shadow: 0 5px #b49610;
+    transform: translateY(4px);
+}
+
+.disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/*--------------------------------------
+    Keyframes
+--------------------------------------*/
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .90;
+    }
+  }
+
+/*--------------------------------------
+    Media Queries
+--------------------------------------*/
+
+@media screen and (max-width: 1024px){
+    /* flex-direction: column; */
+}

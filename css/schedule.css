@@ -1,0 +1,28 @@
+/* Schedule Section */
+
+.schedule{
+    background-image: url("images/overlay.png"), -moz-linear-gradient(180deg, #457b9d 0%, #a8dadc 100%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(180deg, #457b9d 0%, #a8dadc 100%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(180deg, #457b9d 0%, #a8dadc 100%);
+    background-image: url("images/overlay.png"), linear-gradient(180deg, #457b9d 0%, #a8dadc 100%);
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.schedule .content{
+    color: white;
+}
+
+.schedule h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.schedule p{
+    font-size: 20;
+    line-height: 30px;
+}
