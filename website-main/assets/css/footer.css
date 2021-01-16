@@ -1,0 +1,100 @@
+/* Footer Section */
+
+.footer{
+    background-color: rgb(40, 40, 40);
+    background-image: url("images/overlay.png");
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.footer .content{
+    color: white;
+}
+
+.footer h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.footer p{
+    font-size: 20;
+    line-height: 30px;
+    margin-top: 1.5rem;
+}
+
+#footer .fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a.fa:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.fa-facebook{
+    background: #3b5998;
+    color: white;
+    transition: ease .2s;
+}
+
+.fa-facebook:hover{
+    background: #325cb8;
+    transition: ease .2s;
+}
+
+.fa-twitter{
+    background: #3fa7f7;
+    color: white;
+    transition: ease .2s;
+}
+
+.fa-twitter:hover{
+    background: #73c2ff;
+    transition: ease .2s;
+}
+
+.fa-instagram{
+    background: #e5497b;
+    color: white;
+    transition: background ease .2s;
+}
+
+.fa-instagram:hover{
+    background: #e0648c;
+    color: white;
+    transition: background ease .2s;
+}
+
+.fa-linkedin{
+    background: #0a66c2;
+    color: white;
+    transition: ease .2s;
+}
+
+.fa-linkedin:hover{
+    background: #2778c9;
+    color: white;
+    transition: ease .2s;
+}
+
+.fa-github{
+    background: white;
+    color: black;
+    transition: ease .2s;
+}
+
+.fa-github:hover{
+    background: #e0dede;
+    color: black;
+    transition: ease .2s;
+}

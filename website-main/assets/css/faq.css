@@ -1,0 +1,98 @@
+/* FAQ Section */
+
+.faq{
+    background-image: url("images/overlay.png"), -moz-linear-gradient(125deg, #CF5C36 20%, #4C1E4F 60%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(125deg, #CF5C36 20%, #4C1E4F 60%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(125deg, #CF5C36 20%, #4C1E4F 60%);
+    background-image: url("images/overlay.png"), linear-gradient(125deg, #CF5C36 20%, #4C1E4F 60%);
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.faq .content{
+    color: white;
+}
+
+.faq h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.faq p{
+    font-size: 20;
+    line-height: 30px;
+}
+
+/*************************
+    Collapsible Content
+*************************/
+
+.accordion-item{
+    text-align: left;
+    text-align: left;
+    color: white;
+}
+  
+.accordion a.question{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    font-size: 1.15rem;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+  
+.accordion a:hover, .accordion a:hover::after{
+    cursor: pointer;
+}
+  
+.accordion a.active{
+    color: white;
+    border-bottom: 1.5px solid white;
+}
+  
+.accordion a.question::after{
+    content: url(../img/down.svg);
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 1rem;
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+  
+.accordion a.active::after{
+    content: url(../img/up.svg);
+}
+  
+.accordion .content{
+    opacity: 0;
+    padding: 0 1rem;
+    max-height: 0;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    clear: both;
+}
+  
+.accordion .content p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 0;
+    
+}
+  
+.accordion .content.active{
+    opacity: 1;
+    padding: 1.25rem;
+    max-height: 100%;
+    transition: opacity .4s cubic-bezier(.68,.8,.25,1) .2s, max-height .4s cubic-bezier(.22,.61,.36,1), padding-bottom .4s cubic-bezier(.22,.61,.36,1)
+}

@@ -1,0 +1,29 @@
+/* About Us Section */
+
+.about{
+    background-image: url("images/overlay.png"), -moz-linear-gradient(125deg, #FFBE0B 20%, #4C1E4F 80%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(125deg, #FFBE0B 20%, #4C1E4F 80%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(125deg, #FFBE0B 20%, #4C1E4F 80%);
+    background-image: url("images/overlay.png"), linear-gradient(125deg, #FFBE0B 20%, #4C1E4F 80%);
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.about .content{
+    color: white;
+}
+
+.about h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.about p{
+    font-size: 20;
+    line-height: 30px;
+    margin-top: 1.5rem;
+}

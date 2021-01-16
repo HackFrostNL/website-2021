@@ -1,0 +1,70 @@
+/* Sponsors Section */
+
+.sponsors{
+    background-image: url("images/overlay.png"), -moz-linear-gradient(125deg, grey 10%, #4C1E4F 35%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(125deg, grey 10%, #4C1E4F 35%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(125deg, grey 10%, #4C1E4F 35%);
+    background-image: url("images/overlay.png"), linear-gradient(125deg, grey 10%, #4C1E4F 35%);
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.sponsors .content{
+    color: white;
+}
+
+.sponsors h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.sponsors h2{
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    font-size: 30;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+.sponsors p{
+    font-size: 20;
+    line-height: 30px;
+}
+
+.sponsors img.diamond-sponsor{
+    height: auto;
+    max-width: 100%;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    display: block;
+    margin: auto auto 40px auto;
+    width: 100%;
+}
+.sponsors img.gold-sponsor{
+    height: auto;
+    max-width: 100%;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    display: block;
+    margin: auto auto 40px auto;
+    width: 70%;
+}
+.sponsors img.silver-sponsor{
+    height: auto;
+    max-width: 100%;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    display: block;
+    margin: auto auto 40px auto;
+    width: 50%;
+}
+.sponsors img.bronze-sponsor{
+    height: auto;
+    max-width: 100%;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    display: block;
+    margin: auto auto 40px auto;
+    width: 50%;
+}
