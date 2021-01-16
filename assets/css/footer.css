@@ -1,11 +1,8 @@
 /* Footer Section */
 
 .footer{
-    background-image: url("images/overlay.png"), -moz-linear-gradient(180deg, #f1faee 10%, #e63946 100%);
-    background-image: url("images/overlay.png"), -webkit-linear-gradient(180deg, #f1faee 10%, #e63946 100%);
-    background-image: url("images/overlay.png"), -ms-linear-gradient(180deg, #f1faee 10%, #e63946 100%);
-    background-image: url("images/overlay.png"), linear-gradient(180deg, #f1faee 10%, #e63946 100%);
-    align-items: center;
+    background-color: rgb(40, 40, 40);
+    background-image: url("images/overlay.png");
     text-align: center;
     margin: auto;
     padding-top: 100px;
