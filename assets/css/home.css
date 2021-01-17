@@ -2,6 +2,8 @@
 
 .home{
     background-image: url(images/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     margin: auto;
     padding-top: 100px;
@@ -22,22 +24,30 @@
     width: 35%;
 }
 
-#event-date{
+#logo, #event-name, #event-date, #event-year{
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
-    font-weight: bold;
-    letter-spacing: 5px;
     text-transform: uppercase;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    animation: fadeIn 1s ease;
+}
+
+#event-name{
+    font-size: 55px;
+    font-weight: normal;
+    margin: 1rem auto auto auto;
+}
+
+#event-date{
+    font-weight: normal;
+    letter-spacing: 14px;
+    margin: auto;
 }
 
 #event-year{
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 5px;
-    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    letter-spacing: 14px;
     margin-bottom: 30px;
 }
 

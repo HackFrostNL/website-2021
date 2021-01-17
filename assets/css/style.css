@@ -12,8 +12,8 @@
     box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
+html{
+    scroll-behavior: smooth;
 }
 
 body, html{
@@ -45,8 +45,18 @@ body, html{
     Typography
 --------------------------------------*/
 
+h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    text-shadow: 0 0 30px white,
+                 0 0 50px white;
+}
+
 p{
     margin-bottom: 2rem;
+}
+
+a{
+    text-decoration: none;
 }
 
 .section-header{
@@ -62,6 +72,7 @@ p{
 
 .buttonBox {
     margin: 0 auto;
+    animation: fadeIn 1s ease;
 }
 
 .button{
@@ -81,7 +92,6 @@ p{
 }
 
 .button:hover{
-    font-weight: bold;
     color: #2C6D87;
     background-color:#FFD522;
     box-shadow: 0 7px #b49610;
@@ -101,14 +111,54 @@ p{
     Keyframes
 --------------------------------------*/
 
-@keyframes fadeIn {
-    from {
+@keyframes fadeIn{
+    from{
         opacity: 0;
     }
-    to {
-        opacity: .90;
+    to{
+        opacity: 1;
     }
-  }
+}
+
+@-moz-keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/*--------------------------------------
+    Fade-in on scroll
+--------------------------------------*/
+
+.fadeIn-scroll{
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+.fadeIn-scroll.appear{
+    opacity: 1;
+}
 
 /*--------------------------------------
     Media Queries
