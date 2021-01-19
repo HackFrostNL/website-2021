@@ -1,0 +1,25 @@
+/* About Us Section */
+
+.about{
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.about .content{
+    color: white;
+}
+
+.about h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.about p{
+    font-size: 20;
+    line-height: 30px;
+    margin-top: 1.5rem;
+}

@@ -1,0 +1,178 @@
+@import url("navbar.css");
+@import url("home.css");
+@import url("about.css");
+@import url("faq.css");
+@import url("schedule.css");
+@import url("sponsors.css");
+@import url("footer.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #1d3557;
+    background-image: url("images/overlay.png");
+}
+
+.wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.valign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+.content{
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about, .faq, .schedule, .sponsors, .footer{
+    transition: background 1s ease;
+}
+
+/*--------------------------------------
+    Typography
+--------------------------------------*/
+
+h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    text-shadow: 0 0 30px white,
+                 0 0 50px white;
+}
+
+p{
+    margin-bottom: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section-header{
+	color: white;
+	font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+/*--------------------------------------
+    Buttons
+--------------------------------------*/
+
+.buttonBox {
+    margin: 0 auto;
+    animation: fadeIn 1s ease;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 15px 32px;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #dfdfdf;
+    box-shadow: 0 7px #919191;
+    color: black;
+    transition: all .3s ease 0s;
+}
+
+.button:hover{
+    color: #2C6D87;
+    background-color:#FFD522;
+    box-shadow: 0 7px #b49610;
+}
+
+.button:active{
+    box-shadow: 0 5px #b49610;
+    transform: translateY(4px);
+}
+
+.disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/*--------------------------------------
+    Keyframes
+--------------------------------------*/
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/*--------------------------------------
+    Fade-in on scroll
+--------------------------------------*/
+
+.fadeIn-scroll{
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+.fadeIn-scroll.appear{
+    opacity: 1;
+}
+
+/*--------------------------------------
+    Media Queries
+--------------------------------------*/
+
+@media screen and (max-width: 1024px){
+    /* flex-direction: column; */
+}
