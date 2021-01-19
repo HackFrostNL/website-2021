@@ -57,10 +57,8 @@ nav .links a{
 
 nav .links li a:hover{
     color: #EE2C49;
-    text-shadow: 0 0 20px #EE2C49,
-                 0 0 40px #EE2C49,
-                 0 0 80px #EE2C49;
-    
+    text-shadow: 0 0 30px #EE2C49,
+                 0 0 60px #EE2C49;
 }
 
 #nav-toggle{
