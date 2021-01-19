@@ -1,23 +1,4 @@
 //
-// Accordion javascript
-//
-
-const items = document.querySelectorAll('.accordion a.question');
-
-function toggleAccordion(){
-    this.classList.toggle('active');
-    for(let item of items){
-        if(item !== this){
-            item.classList.remove('active');
-            item.nextElementSibling.classList.remove('active');
-        }
-    }
-    this.nextElementSibling.classList.toggle('active');
-}
-
-items.forEach(item => item.addEventListener('click', toggleAccordion));
-
-//
 // Fade in on scroll
 //
 
@@ -45,3 +26,32 @@ fadeOptions);
 fade.forEach(fade =>{
     appearOnScroll.observe(fade);
 });
+
+//
+// Change bg colour on scroll
+//
+
+var $target = $('.about, .faq, .schedule, .sponsors, .footer');
+inView('.content').on('enter', function(el){
+    var color = $(el).attr('data-background-color');
+    $target.css('background-color', color );
+});
+
+//
+// Accordion javascript
+//
+
+const items = document.querySelectorAll('.accordion a.question');
+
+function toggleAccordion(){
+    this.classList.toggle('active');
+    for(let item of items){
+        if(item !== this){
+            item.classList.remove('active');
+            item.nextElementSibling.classList.remove('active');
+        }
+    }
+    this.nextElementSibling.classList.toggle('active');
+}
+
+items.forEach(item => item.addEventListener('click', toggleAccordion));

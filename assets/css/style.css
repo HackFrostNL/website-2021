@@ -12,12 +12,17 @@
     box-sizing: border-box;
 }
 
+body, html{
+    font-family: 'Montserrat', sans-serif;
+}
+
 html{
     scroll-behavior: smooth;
 }
 
-body, html{
-    font-family: 'Montserrat', sans-serif;
+body{
+    background: #1d3557;
+    background-image: url("images/overlay.png");
 }
 
 .wrapper{
@@ -39,6 +44,10 @@ body, html{
     margin: auto;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.about, .faq, .schedule, .sponsors, .footer{
+    transition: background 1s ease;
 }
 
 /*--------------------------------------
