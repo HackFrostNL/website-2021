@@ -1,8 +1,9 @@
-/* Footer Section */
+/*--------------------------------------
+    Footer Section
+--------------------------------------*/
 
 .footer{
-    background-color: rgb(40, 40, 40);
-    background-image: url("images/overlay.png");
+    align-items: center;
     text-align: center;
     margin: auto;
     padding-top: 100px;

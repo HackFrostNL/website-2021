@@ -12,18 +12,23 @@
     box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-}
-
 body, html{
     font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #1d3557;
+    background-image: url("images/overlay.png");
 }
 
 .wrapper{
     margin-right: auto;
     margin-left: auto;
-    max-width: 960px;
+    max-width: 1200px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -41,12 +46,26 @@ body, html{
     padding-right: 50px;
 }
 
+.about, .faq, .schedule, .sponsors, .footer{
+    transition: background 2s ease;
+}
+
 /*--------------------------------------
     Typography
 --------------------------------------*/
 
+h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    text-shadow: 0 0 30px white,
+                 0 0 50px white;
+}
+
 p{
     margin-bottom: 2rem;
+}
+
+a{
+    text-decoration: none;
 }
 
 .section-header{
@@ -61,13 +80,15 @@ p{
 --------------------------------------*/
 
 .buttonBox {
-    margin: 0 auto;
+    margin: auto;
+    animation: fadeIn 1s ease;
 }
 
 .button{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     padding: 15px 32px;
+    margin-bottom: 30px;
     border: none;
     outline: none;
     border-radius: 14px;
@@ -81,9 +102,8 @@ p{
 }
 
 .button:hover{
-    font-weight: bold;
     color: #2C6D87;
-    background-color:#FFD522;
+    background-color: #FFD522;
     box-shadow: 0 7px #b49610;
 }
 
@@ -101,14 +121,54 @@ p{
     Keyframes
 --------------------------------------*/
 
-@keyframes fadeIn {
-    from {
+@keyframes fadeIn{
+    from{
         opacity: 0;
     }
-    to {
-        opacity: .90;
+    to{
+        opacity: 1;
     }
-  }
+}
+
+@-moz-keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/*--------------------------------------
+    Fade-in on scroll
+--------------------------------------*/
+
+.fadeIn-scroll{
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+.fadeIn-scroll.appear{
+    opacity: 1;
+}
 
 /*--------------------------------------
     Media Queries
@@ -116,4 +176,19 @@ p{
 
 @media screen and (max-width: 1024px){
     /* flex-direction: column; */
+}
+
+@media screen and (max-width: 768px){
+    .button{
+        color: #2C6D87;
+        background-color:#FFD522;
+        box-shadow: 0 7px #b49610;
+    }
+
+    .buttonBox{
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
 }
