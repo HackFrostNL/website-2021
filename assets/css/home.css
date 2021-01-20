@@ -23,7 +23,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
+    width: 30%;
 }
 
 #logo, #event-name, #event-date, #event-year{
@@ -53,8 +53,8 @@
     margin-bottom: 30px;
 }
 
-#register, #sponsor-us{
-    display: inline-block;
-    margin: 0;
-    margin-bottom: 30px;
+@media screen and (max-width: 768px){
+    #logo{
+        width: 65%;
+    }
 }

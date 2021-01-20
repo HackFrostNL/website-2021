@@ -12,10 +12,13 @@
     color: white;
 }
 
+.sponsors h1, .sponsors h2, .column{
+    text-align: center;
+}
+
 .sponsors h1{
     font-family: 'Montserrat Subrayada', sans-serif;
     font-size: 40px;
-    text-align: center;
     color: white;
     margin-bottom: 40px;
 }
@@ -27,7 +30,6 @@
     font-size: 30;
     font-weight: bold;
     font-style: italic;
-    text-align: center;
     color: white;
 }
 
@@ -37,7 +39,6 @@
 }
 
 .column{
-    text-align: center;
     flex: 33.33%;
     padding: 0px 20px 0px 30px;
 }
@@ -48,11 +49,9 @@
     padding: 1.5rem 3rem 1.5rem 3rem;
 }
 
-/* Fix sponsor not displaying glitch */
-
 .sponsors img{
     width: auto;
-    display: inline-block;
+    display: block;
     transition: all 0.5s ease;
 }
 
@@ -60,19 +59,21 @@
     transform: scale(1.1);
 }
 
+.sponsors img.diamond-sponsor, .sponsors img.gold-sponsor{
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    margin: auto;
+}
+
 .sponsors img.diamond-sponsor{
     height: auto;
     max-width: 100%;
-    padding: 1.5rem 3rem 1.5rem 3rem;
-    margin: auto auto 40px auto;
-    width: 100%;
+    width: 65%;
 }
 .sponsors img.gold-sponsor{
     height: auto;
     max-width: 100%;
-    padding: 1.5rem 3rem 1.5rem 3rem;
-    margin: auto auto 40px auto;
-    width: 70%;
+    margin-bottom: 40px;
+    width: 50%;
 }
 
 .sponsors img.silver-sponsor{
@@ -83,66 +84,22 @@
 
 @media screen and (max-width: 768px){
     .row{
-        display: inline-block;
+        padding: 0;
+        display: block;
     }
     
     .column{
         flex: 100%;
     }
+
+    .sponsors img.diamond-sponsor, .sponsors img.gold-sponsor{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .sponsors img.silver-sponsor{
+        padding-bottom: 45px;
+    }
 }
-
-/* ------------------------------------------------------------
-	sponsors
-------------------------------------------------------------
-.sponsors-container {
-    text-align: center;
-    padding-top: 15vh;
-    padding-bottom: 15vh;
-    background-color: #0A0618;
-  }
-  
-  .sponsors-text {
-    text-align: center;
-    font-size: 1em;
-    color: #fff;
-    opacity: .85;
-    margin: 1.2em auto 0 auto;
-    max-width: 67vw;
-  }
-  
-  .sponsors-link {
-    display: inline-block;
-  }
-  
-  .sponsors-link:hover
-  {
-      transform: scale(1.1);
-  }
-
-/* ------------------------------------------------------------ 
-  sponsor images
-\* ------------------------------------------------------------
-
-.sponsors-container div[class*="col"] {
-    padding-top: 1em;
-    padding-bottom: 1em;
-  }
-  
-  .sponsors-container img:hover {
-    opacity: 0.75;
-    filter: alpha(opacity=75);
-    -webkit-opacity: 0.75;
-    -moz-opacity: 0.75;
-  }
-  
-  .cohost-line {
-    color: white;
-    font-size: 1.3em;
-    font-weight: bold;
-  }
-  
-  .sponsors-container .row {
-    align-items: center;
-  }
-
-  */

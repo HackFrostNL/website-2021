@@ -47,7 +47,7 @@ body{
 }
 
 .about, .faq, .schedule, .sponsors, .footer{
-    transition: background 1s ease;
+    transition: background 2s ease;
 }
 
 /*--------------------------------------
@@ -80,7 +80,7 @@ a{
 --------------------------------------*/
 
 .buttonBox {
-    margin: 0 auto;
+    margin: auto;
     animation: fadeIn 1s ease;
 }
 
@@ -88,6 +88,7 @@ a{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     padding: 15px 32px;
+    margin-bottom: 30px;
     border: none;
     outline: none;
     border-radius: 14px;
@@ -102,7 +103,7 @@ a{
 
 .button:hover{
     color: #2C6D87;
-    background-color:#FFD522;
+    background-color: #FFD522;
     box-shadow: 0 7px #b49610;
 }
 
@@ -175,4 +176,19 @@ a{
 
 @media screen and (max-width: 1024px){
     /* flex-direction: column; */
+}
+
+@media screen and (max-width: 768px){
+    .button{
+        color: #2C6D87;
+        background-color:#FFD522;
+        box-shadow: 0 7px #b49610;
+    }
+
+    .buttonBox{
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
 }
