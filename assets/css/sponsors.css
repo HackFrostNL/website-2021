@@ -28,9 +28,9 @@
 .sponsors h2{
     padding: 1.5rem 3rem 1.5rem 3rem;
     font-size: 30;
-    font-weight: bold;
-    font-style: italic;
     color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 25px white;
 }
 
 .sponsors p{
@@ -46,7 +46,7 @@
 .row{
     align-items: center;
     display: flex;
-    padding: 1.5rem 3rem 1.5rem 3rem;
+    padding: 0.5rem 3rem 0.5rem 3rem;
 }
 
 .sponsors img{
@@ -59,21 +59,28 @@
     transform: scale(1.1);
 }
 
-.sponsors img.diamond-sponsor, .sponsors img.gold-sponsor{
-    padding: 1.5rem 3rem 1.5rem 3rem;
+.sponsors img.diamond-sponsor{
+    padding: 0.5rem 3rem 0.5rem 3rem;
     margin: auto;
 }
 
 .sponsors img.diamond-sponsor{
     height: auto;
     max-width: 100%;
-    width: 65%;
+    width: 55%;
 }
+
 .sponsors img.gold-sponsor{
     height: auto;
     max-width: 100%;
-    margin-bottom: 40px;
-    width: 50%;
+    width: 45%;
+}
+
+.sponsors .row img.gold-sponsor{
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
 }
 
 .sponsors img.silver-sponsor{

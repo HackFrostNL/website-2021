@@ -46,6 +46,8 @@
 
             <!-- Home -->
             <section class="home" id="home">
+                <video autoplay muted loop id="myVideo" style="position: fixed; z-index: -1; top: -10px;">
+                    <source src="assets/img/background.mp4" type="video/mp4"></video>
                 <div class="wrapper valign d-flex flex-column">
                     <img src="assets/img/hfnl-logo-big.png" id="logo" alt="hackfrostNL">
                     <h1 id="event-name">Hack<b>Frost</b> NL</h1>
@@ -68,7 +70,7 @@
             <!-- About -->
             <section class="about" id="about">
                 <div class="wrapper">
-                    <div class="content" data-background-color="transparent"> <!-- Change the element within the data-background-color to change the colour transition -->
+                    <div class="content" data-background-color="#162447"> <!-- Change the element within the data-background-color to change the colour transition -->
                         <h1 class="section-header fadeIn-scroll">Welcome to Hack Frost!</h1>
                         <p class="fadeIn-scroll">Hack Frost NL is a tech hackathon for students organized by students from Memorial University of Newfoundland.
                             We invite students to participate in an exciting weekend to learn new skills and connect with a community of tech enthusiasts!
@@ -90,7 +92,7 @@
             <!-- FAQ -->
             <section class="faq" id="faq">
                 <div class="wrapper">
-                    <div class="content" data-background-color="#3f2d56">
+                    <div class="content" data-background-color="#1f4068">
                         <h1 class="section-header fadeIn-scroll">Frequently Asked Questions</h1>
 
                         <!-- Questions -->
@@ -187,10 +189,11 @@
             <!-- Sponsors -->
             <section class="sponsors" id="sponsors">
                 <div class="wrapper">
-                    <div class="content" data-background-color="transparent">
+                    <div class="content" data-background-color="#321d2f">
                         <h1 class="section-header fadeIn-scroll">Our Sponsors</h1>
+
                         <div>
-                            <h2 class="fadeIn-scroll">Diamond Sponsor</h2>
+                            <h2 class="fadeIn-scroll">╼═══ Diamond Sponsor ═══╾</h2>
                             <div class="row fadeIn-scroll">
                                 <a href="https://verafin.com/" alt="Verafin Inc.">
                                     <img class="diamond-sponsor" src="assets/img/verafin.png">
@@ -207,26 +210,38 @@
                                 </a>
                             </div>
                         </div>
-                        <div>
-                            <h2 class="fadeIn-scroll">Gold Sponsor</h2>
-                            <a href="https://www.ieeecanadianfoundation.org/EN/index.php" alt="IEEE Canadian Foundation">
-                                <img class="gold-sponsor fadeIn-scroll" src="assets/img/ieee_cf_logo.png">
-                            </a>
-                            <a href="https://www.sequencebio.com/" alt="Sequence Bio">
-                                <img class="gold-sponsor fadeIn-scroll" src="assets/img/sequencebio.png">
-                            </a>
-                            <!-- Check issue with ICF Logo
-                            <div class="row">
-                                <a href="https://www.ieeecanadianfoundation.org/EN/index.php" alt="IEEE Canadian Foundation">
-                                    <img class="gold-sponsor" src="assets/img/ieee_cf_logo.png">
-                                </a>
-                            </div>  -->
-                        </div>
-                        <div>
-                            <h2 class="fadeIn-scroll">Silver Sponsor</h1>
-                            <div class="row fadeIn-scroll">
 
-                                <div class="column"></div>
+                        <div>
+                            <h2 class="fadeIn-scroll">╼═══ Gold Sponsor ═══╾</h2>
+                            <div class="row fadeIn-scroll">
+                                <div class="column">
+                                    <a href="https://www.ieeecanadianfoundation.org/EN/index.php" alt="IEEE Canadian Foundation">
+                                        <img class="gold-sponsor" src="assets/img/ieee_cf_logo.png">
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <a href="https://www.sequencebio.com/" alt="Sequence Bio">
+                                        <img class="gold-sponsor" src="assets/img/sequencebio.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row fadeIn-scroll">
+                                <div class="column">
+                                    <a href="https://mce.mun.ca/" alt="MUN MCE">
+                                        <img class="gold-sponsor" src="assets/img/mun-ent.png" style="height: 150px; width: auto;">
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <a href="https://www.vision33.com/" alt="Sequence Bio">
+                                        <img class="gold-sponsor" src="assets/img/vision33.png" style="height: 150px; width: auto;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h2 class="fadeIn-scroll">╼═══ Silver Sponsor ═══╾</h1>
+                            <div class="row fadeIn-scroll">
                                 <div class="column">
                                     <a href="https://www.colabsoftware.com/" alt="COLAB">
                                         <img class="silver-sponsor" src="assets/img/colab.png">
@@ -234,17 +249,20 @@
                                 </div>
                                 <div class="column">
                                     <a href="https://www.pegnl.ca/" alt="PEGNL">
-                                        <img class="silver-sponsor" src="assets/img/pegnl.png">
+                                        <img class="silver-sponsor" src="assets/img/pegnl-w.png">
                                     </a>
                                 </div>
-                                <div class="column"></div>
-
+                                <div class="column">
+                                    <a href="https://www.breathesuite.com/" alt="BreatheSuite">
+                                        <img class="silver-sponsor" src="assets/img/breathesuite-w.png">
+                                    </a>
+                                </div>
                             </div>
                         </div>
+
                         <div>
                         <h1 class="section-header fadeIn-scroll" style="padding-top: 40px;">Our Partners</h1>
                         <div>
-
                             <div class="row fadeIn-scroll">
                                 <div class="column">
                                     <a href="https://www.technl.ca/" alt="Tech NL">
@@ -262,7 +280,6 @@
                                     </a>
                                 </div>
                             </div>
-
                             <div class="row fadeIn-scroll">
                                 <div class="column"></div>
                                 <div class="column">
@@ -277,8 +294,8 @@
                                 </div>
                                 <div class="column"></div>
                             </div>
-
                         </div>
+
                     </div>
                 </div>
             </section>
@@ -287,7 +304,7 @@
         <!-- Footer -->
         <section class="footer" id="footer">
             <div class="wrapper">
-                <div class="content" data-background-color="#66231f">
+                <div class="content" data-background-color="#3d2e4f">
                     <a href="https://www.facebook.com/hackfrostnl"><i class="fa fa-facebook"></i></a>
                     <a href="https://twitter.com/hackfrostnl"><i class="fa fa-twitter"></i></a>
                     <a href="https://www.instagram.com/hackfrostnl/"><i class="fa fa-instagram"></i></a>
