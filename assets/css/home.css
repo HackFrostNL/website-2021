@@ -3,6 +3,7 @@
 --------------------------------------*/
 
 .home{
+    background-image: url(images/1.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -11,7 +12,6 @@
     padding-bottom: 20px;
     align-items: center;
     position: relative;
-    background-size: center;
 }
 
 .home .content{
