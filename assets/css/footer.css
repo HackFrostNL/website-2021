@@ -49,7 +49,7 @@ a.fa:hover{
 }
 
 .fa-facebook:hover{
-    background: #325cb8;
+    background: #4772ce;
     transition: ease .2s;
 }
 
@@ -71,7 +71,7 @@ a.fa:hover{
 }
 
 .fa-instagram:hover{
-    background: #e0648c;
+    background: #ff8aaf;
     color: white;
     transition: background ease .2s;
 }
@@ -83,7 +83,7 @@ a.fa:hover{
 }
 
 .fa-linkedin:hover{
-    background: #2778c9;
+    background: #4289cf;
     color: white;
     transition: ease .2s;
 }
@@ -97,5 +97,17 @@ a.fa:hover{
 .fa-github:hover{
     background: #e0dede;
     color: black;
+    transition: ease .2s;
+}
+
+.fa-youtube{
+    background: red;
+    color: white;
+    transition: ease .2s;
+}
+
+.fa-youtube:hover{
+    background: #ff7070;
+    color: white;
     transition: ease .2s;
 }
