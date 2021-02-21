@@ -107,15 +107,18 @@
     border: 2px solid #eee;
 }
 
-@media (max-width: 600px) {
-    html { font-size: 12px; }
+@media screen and (max-width: 768px){
     :root {
-      --marquee-width: 100vw;
-      --marquee-height: 16vh;
-      --marquee-elements-displayed: 3;
+        --marquee-width: 100vw;
+        --marquee-height: 200px;
+        --marquee-elements-displayed: 3;
     }
 
-@media screen and (max-width: 768px){
+    .marquee .team-photo{
+        height: 150px;
+        width: auto;
+    }
+
     .about .column{
         flex: 50%;
         padding: 5px 5px 5px 5px;
