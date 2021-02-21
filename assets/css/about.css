@@ -54,7 +54,7 @@
 
 :root {
     --marquee-width: 80vw;
-    --marquee-height: 20vh;
+    --marquee-height: 300px;
     /* --marquee-elements: 12; */ /* defined with JavaScript */
     --marquee-elements-displayed: 5;
     --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
@@ -64,29 +64,8 @@
 .marquee {
     width: var(--marquee-width);
     height: var(--marquee-height);
-    background-color: #111;
     color: #eee;
-    overflow: hidden;
     position: relative;
-}
-
-.marquee:before, .marquee:after {
-    position: absolute;
-    top: 0;
-    width: 10rem;
-    height: 100%;
-    content: "";
-    z-index: 1;
-}
-
-.marquee:before {
-    left: 0;
-    background: linear-gradient(to right, #111 0%, transparent 100%);
-}
-
-.marquee:after {
-    right: 0;
-    background: linear-gradient(to left, #111 0%, transparent 100%);
 }
 
 .marquee-content {
@@ -94,6 +73,11 @@
     height: 100%;
     display: flex;
     animation: scrolling var(--marquee-animation-duration) linear infinite;
+}
+
+.marquee .team-photo{
+    height: 200px;
+    width: auto;
 }
 
 .marquee-content:hover {
@@ -109,7 +93,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
+    text-align: center;
     flex-shrink: 0;
     width: var(--marquee-element-width);
     max-height: 100%;
@@ -122,7 +106,7 @@
     /* height: 100%; */
     border: 2px solid #eee;
 }
-  
+
 @media (max-width: 600px) {
     html { font-size: 12px; }
     :root {
@@ -130,8 +114,6 @@
       --marquee-height: 16vh;
       --marquee-elements-displayed: 3;
     }
-    .marquee:before, .marquee:after { width: 5rem; }
-}
 
 @media screen and (max-width: 768px){
     .about .column{
