@@ -1,0 +1,112 @@
+/*--------------------------------------
+    Sponsors Section
+--------------------------------------*/
+
+.sponsors{
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.sponsors .content{
+    color: white;
+}
+
+.sponsors h1, .sponsors h2, .column{
+    text-align: center;
+}
+
+.sponsors h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+/* Fix h2 styling */
+
+.sponsors h2{
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    font-size: 30;
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 25px white;
+}
+
+.sponsors p{
+    font-size: 20;
+    line-height: 30px;
+}
+
+.sponsors .column{
+    flex: 33.33%;
+    padding: 0px 20px 0px 30px;
+}
+
+.sponsors .row{
+    align-items: center;
+    display: flex;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+}
+
+.sponsors img{
+    width: auto;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.sponsors img:hover{
+    transform: scale(1.1);
+}
+
+.sponsors img.diamond-sponsor{
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    margin: auto;
+}
+
+.sponsors img.diamond-sponsor{
+    height: auto;
+    max-width: 100%;
+    width: 55%;
+}
+
+.sponsors img.gold-sponsor{
+    height: auto;
+    max-width: 100%;
+    width: 45%;
+}
+
+.sponsors .row img.gold-sponsor{
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+.sponsors img.silver-sponsor{
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .sponsors .row{
+        padding: 0;
+        display: block;
+    }
+    
+    .sponsors .column{
+        flex: 100%;
+    }
+
+    .sponsors img.diamond-sponsor, .sponsors img.gold-sponsor{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .sponsors img.silver-sponsor{
+        padding-bottom: 45px;
+    }
+}
