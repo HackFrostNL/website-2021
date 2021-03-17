@@ -83,7 +83,7 @@ a{
     animation: fadeIn 1s ease;
 }
 
-.button{
+.button, .disabled{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     padding: 15px 32px;

@@ -66,6 +66,7 @@
     height: var(--marquee-height);
     color: #eee;
     position: relative;
+    overflow: hidden;
 }
 
 .marquee-content {
@@ -73,6 +74,25 @@
     height: 100%;
     display: flex;
     animation: scrolling var(--marquee-animation-duration) linear infinite;
+}
+
+.marquee:before, .marquee:after {
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    content: "";
+    z-index: 1;
+}
+
+  .marquee:before {
+    left: 0;
+    background: linear-gradient(to right, #162447 0%, transparent 100%);
+}
+
+  .marquee:after {
+    right: 0;
+    background: linear-gradient(to left, #162447 0%, transparent 100%);
 }
 
 .marquee .team-photo{
@@ -97,7 +117,7 @@
     flex-shrink: 0;
     width: var(--marquee-element-width);
     max-height: 100%;
-    font-size: calc(var(--marquee-height)*3/4); /* 5rem; */
+    font-size: 5rem;
     white-space: nowrap;
 }
   
@@ -110,13 +130,17 @@
 @media screen and (max-width: 768px){
     :root {
         --marquee-width: 100vw;
-        --marquee-height: 200px;
-        --marquee-elements-displayed: 3;
+        --marquee-height: 220px;
+        --marquee-elements-displayed: 2;
     }
 
     .marquee .team-photo{
-        height: 150px;
+        height: 140px;
         width: auto;
+    }
+
+    .marquee:before, .marquee:after {
+        width: 5rem;
     }
 
     .about .column{
