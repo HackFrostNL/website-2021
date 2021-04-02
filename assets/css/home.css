@@ -25,6 +25,10 @@
     transform: translate(-50%, -50%);
 }
 
+#myVideo{
+    display: block;
+}
+
 #logo{
     display: block;
     margin-left: auto;
@@ -60,7 +64,15 @@
 }
 
 @media screen and (max-width: 768px){
+    .home{
+        background-image: url(images/1.png);
+    }
+
     #logo{
         width: 65%;
+    }
+
+    #myVideo{
+        display: none;
     }
 }

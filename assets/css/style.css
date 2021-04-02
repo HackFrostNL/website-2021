@@ -59,6 +59,11 @@ h1{
                  0 0 50px white;
 }
 
+h2, h3{
+    text-decoration: none;
+    color: white;
+}
+
 p{
     margin-bottom: 2rem;
 }

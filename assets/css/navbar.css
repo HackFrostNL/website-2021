@@ -15,7 +15,7 @@ nav{
 }
 
 nav .logo, nav .links{
-    animation: fadeIn 1s ease;
+    /* animation: fadeIn 1s ease; */
 }
 
 nav .logo{

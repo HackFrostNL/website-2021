@@ -89,6 +89,14 @@
     width: 100%;
 }
 
+#diamondSponsor, #goldSponsor, #silverSponsor{
+    display: block;
+}
+
+#diamondSponsor-m, #goldSponsor-m, #silverSponsor-m{
+    display: none;
+}
+
 @media screen and (max-width: 768px){
     .sponsors .row{
         padding: 0;
@@ -106,7 +114,15 @@
         margin-bottom: 40px;
     }
 
-    .sponsors img.silver-sponsor{
+    .sponsors img.gold-sponsor, .sponsors img.silver-sponsor{
         padding-bottom: 45px;
+    }
+
+    #diamondSponsor, #goldSponsor, #silverSponsor{
+        display: none;
+    }
+
+    #diamondSponsor-m, #goldSponsor-m, #silverSponsor-m{
+        display: block;
     }
 }
