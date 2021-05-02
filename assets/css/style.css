@@ -5,6 +5,7 @@
 @import url("schedule.css");
 @import url("sponsors.css");
 @import url("footer.css");
+@import url("slider.css");
 
 *{
     margin: 0;
@@ -30,6 +31,7 @@ body{
     max-width: 1200px;
     padding-left: 10px;
     padding-right: 10px;
+    text-align: center;
 }
 
 .valign{
@@ -45,7 +47,11 @@ body{
     padding-right: 50px;
 }
 
-.about, .faq, .schedule, .sponsors, .footer{
+.about,
+.faq,
+.schedule,
+.sponsors,
+.footer .slider {
     transition: background 2s ease;
 }
 
