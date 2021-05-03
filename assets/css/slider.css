@@ -1,8 +1,9 @@
 .carousel-wrapper {
     z-index: 0;
-
-    height: 400px;
-    width: 1200px;
+    min-width: 350px;
+    width: 100%;
+    height: 30vw;
+    max-height: 400px;
     position: relative;
     margin: 0 auto;
 }
@@ -10,8 +11,10 @@
 .carousel-item {
     z-index: 0;
     position: absolute;
-        height: 400px;
-        width: 1200px;
+    width: 100%;
+    height: 30vw;
+    max-height: 400px;
+
     padding: 25px 50px;
     opacity: 0;
     transition: all 0.5s ease-in-out;
@@ -28,15 +31,15 @@
 }
 
 .arrow-prev {
-    left: -30px;
-    position: absolute;
+    left: -100px;
+    position: relative;
     top: 50%;
     transform: translateY(-50%) rotate(135deg);
 }
 
 .arrow-next {
-    right: -30px;
-    position: absolute;
+    right: -100px;
+    position: relative;
     top: 50%;
     transform: translateY(-50%) rotate(-45deg);
 }
@@ -64,17 +67,14 @@
     z-index: 2;
     opacity: 1;
     background: url('./images/firstPlace.jpeg');
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .item-2 {
     background: url('./images/otherPlaces.jpeg');
-    background-size: cover;
-}
-
-.item-3 {
-    background: url('https://static.pexels.com/photos/6529/lake-kajak-kayak-large.jpg');
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 *:target~.item-1 {
