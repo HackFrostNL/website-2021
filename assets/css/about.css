@@ -145,7 +145,7 @@
 
 @media screen and (max-width: 768px){
     :root {
-        --marquee-width: 100vw;
+        --marquee-width: 98vw;
         --marquee-height: 220px;
         --marquee-elements-displayed: 2;
     }
