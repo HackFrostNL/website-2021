@@ -24,3 +24,11 @@
     font-size: 20;
     line-height: 30px;
 }
+
+@media screen and (max-width: 380px){
+#prizes{
+    display: block;
+    overflow-x: scroll;
+    /* align-content: flex-start; */
+}
+}
