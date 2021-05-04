@@ -175,3 +175,10 @@
         width: auto;
     }
 }
+@media screen and (max-width: 485px){
+    :root {
+        --marquee-width: 90vw;
+        --marquee-height: 220px;
+        --marquee-elements-displayed: 2;
+    }
+}

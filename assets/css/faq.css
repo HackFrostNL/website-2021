@@ -94,3 +94,9 @@
     max-height: 100%;
     transition: opacity .4s cubic-bezier(.68,.8,.25,1) .2s, max-height .4s cubic-bezier(.22,.61,.36,1), padding-bottom .4s cubic-bezier(.22,.61,.36,1)
 }
+
+@media screen and (max-width: 420px){
+    .schedule .accordion-item{
+        font-size: 35px !important;
+    }
+}

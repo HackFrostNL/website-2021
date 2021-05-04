@@ -76,3 +76,9 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 365px){
+#event-name{
+    font-size: 50px;
+}
+}
